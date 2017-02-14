@@ -25,73 +25,73 @@ insert into PUBLIC.F0311(urusid,urrlid) values(5,'player');
 insert into PUBLIC.F0311(urusid,urrlid) values(6,'player');
 
 /*authorities*/
-insert into PUBLIC.F0320(auid,auname) values('dummy','Dummy');
+insert into PUBLIC.F0320(auid,auname) values('mobile','Mobile');
 
 /*role-authorities*/
-insert into PUBLIC.F0321(rarlid,raauid) values('expert','dummy');
-insert into PUBLIC.F0321(rarlid,raauid) values('player','dummy');
+insert into PUBLIC.F0321(rarlid,raauid) values('manager','mobile');
+insert into PUBLIC.F0321(rarlid,raauid) values('player','mobile');
 
 /*categories*/
-insert into PUBLIC.F1030(cglsid,cgsi,cgpsi,cgname) values('wuu-sha',1,1,'吳語文庫');
-insert into PUBLIC.F1030(cglsid,cgsi,cgpsi,cgname) values('wuu-sha',2,1,'月絕書');
+insert into PUBLIC.F1030(cglsid,cgsi,cgpsi,cgname,cgusid) values('wuu-sha',1,1,'吳語文庫',1);
+insert into PUBLIC.F1030(cglsid,cgsi,cgpsi,cgname,cgusid) values('wuu-sha',2,1,'月絕書',1);
 
 /*articles*/
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,1,'衹要有路(上海言話版)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,2,'衹要有路(test01)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,3,'衹要有路(test02)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,4,'衹要有路(test03)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,5,'衹要有路(test04)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,6,'衹要有路(test05)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,7,'衹要有路(test06)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,8,'衹要有路(test07)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,9,'衹要有路(test08)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,10,'衹要有路(test09)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,11,'衹要有路(test10)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,12,'衹要有路(test11)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,13,'衹要有路(test12)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,14,'衹要有路(test13)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,15,'衹要有路(test14)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,16,'衹要有路(test15)','13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,17,'衹要有路(test16)','13000000001',current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,1,'衹要有路(上海言話版)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,2,'衹要有路(test01)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,3,'衹要有路(test02)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,4,'衹要有路(test03)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,5,'衹要有路(test04)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,6,'衹要有路(test05)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,7,'衹要有路(test06)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,8,'衹要有路(test07)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,9,'衹要有路(test08)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,10,'衹要有路(test09)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,11,'衹要有路(test10)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,12,'衹要有路(test11)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,13,'衹要有路(test12)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,14,'衹要有路(test13)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,15,'衹要有路(test14)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,16,'衹要有路(test15)',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1110(atcgid,atsi,atname,atusid,atcrdt,atupdt) values(1,17,'衹要有路(test16)',1,current_timestamp,current_timestamp);
 
 /*sentences*/
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,2,'蝦兒先頭寫著我弗薄相golf，昰歇挨下去講。要我話弗薄相箇道理我好一瑲頭講87隻出來，',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,3,'講講主要理由末：',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,4,'一介頭弗好薄相，板要搭人家一道。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,5,'趟趟全要跑來遠來死。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,6,'家生買買弄弄，夯進夯出忒衰瘏。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,7,'製服様式弗摀心，望來觸氣。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,8,'差弗多是箇然。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,9,'倒轉來話，搭昰个相對，蓋每自然是我歡喜箇運動，也就是跑步。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,10,'衹要儂有得路好來，一介頭在啥个場許啥个辰光儕好跑。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,11,'隨便揀雙鞋子就來事，別樣啥物事也弗要。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,12,'蓋咾我就昰然跑著廿幾年。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,13,'常時覺著「虧得我一徑跑步！」，尤其是出去旅遊箇辰光。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,14,'烏早天亮，在丄弗認得箇異國街路丄慢慢然跑，真真寫意足。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,15,'弗單單寫意，跑步箇速度（大約摸一个鐘頭10公里）對望風景樁事體來話也是邪氣理想。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,16,'車子跑來忒快咾來弗洎看見箇角落好看著，傍走路望見箇物事貤好較要多來交關。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,17,'有得啥个有勁箇物事還好停落來仔細張脫歇，有得發嗲箇貓咪也好搭渠薄相相。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,18,'假使儂嘗怕會得有啥問題箇說話，蓋就是常莊要跑弗見。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,19,'也弗要怪，在一眼也弗認得箇場地瞎跑八跑，弗迷路倒怪來。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,20,'在Finland馬路丄跑箇辰光我就尋弗著轉去箇路哉。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,21,'旅館裡向出來一歇還有日頭，跑著一半天陰下來，風呺起來，冷來結棍。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,22,'旁邊頭人一个也嘸沒，自家昰歇在何裡爿也弗曉得。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,23,'要弗是碰著一老一小好心箇馴鹿兩个，作興就然介畀凍煞脫哉……',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,24,'昰个弗需要話衹不過是瞎講講，但是冷是真箇冷透冷透箇。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,25,'來在Italia中部一隻舊城，我擔住箇旅館忘記。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,26,'跑著大約摸一个鐘頭，人適意在許、忖著歸去汏場浴箇辰光，旅館隻名字如何然也記弗起來。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,27,'乃昰記要死，問路也嘸辦法問哉。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,28,'齁來要死，東跑跑西跑跑，在末生頭眼門前𧾁出來隻在何裡看見歇箇旅館，總算九死一生。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,29,'弗是昰然箇說話真要一腳去哉。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,30,'在Graecia跑總歸是畀攔牢，叫我「阿哥，歇一歇進來喫杯ouzo𠲎？」，',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,31,'我當然回頭渠（排物事喫落去還好跑唻？）。',0,'13000000001',current_timestamp,current_timestamp);
-insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,32,'言話講轉來，用自介兩隻腳一頭跑一頭望著箇風景，交關㜺。嗯。',0,'13000000001',current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,2,'蝦兒先頭寫著我弗薄相golf，昰歇挨下去講。要我話弗薄相箇道理我好一瑲頭講87隻出來，',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,3,'講講主要理由末：',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,4,'一介頭弗好薄相，板要搭人家一道。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,5,'趟趟全要跑來遠來死。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,6,'家生買買弄弄，夯進夯出忒衰瘏。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,7,'製服様式弗摀心，望來觸氣。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,8,'差弗多是箇然。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,9,'倒轉來話，搭昰个相對，蓋每自然是我歡喜箇運動，也就是跑步。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,10,'衹要儂有得路好來，一介頭在啥个場許啥个辰光儕好跑。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,11,'隨便揀雙鞋子就來事，別樣啥物事也弗要。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,12,'蓋咾我就昰然跑著廿幾年。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,13,'常時覺著「虧得我一徑跑步！」，尤其是出去旅遊箇辰光。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,14,'烏早天亮，在丄弗認得箇異國街路丄慢慢然跑，真真寫意足。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,15,'弗單單寫意，跑步箇速度（大約摸一个鐘頭10公里）對望風景樁事體來話也是邪氣理想。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,16,'車子跑來忒快咾來弗洎看見箇角落好看著，傍走路望見箇物事貤好較要多來交關。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,17,'有得啥个有勁箇物事還好停落來仔細張脫歇，有得發嗲箇貓咪也好搭渠薄相相。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,18,'假使儂嘗怕會得有啥問題箇說話，蓋就是常莊要跑弗見。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,19,'也弗要怪，在一眼也弗認得箇場地瞎跑八跑，弗迷路倒怪來。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,20,'在Finland馬路丄跑箇辰光我就尋弗著轉去箇路哉。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,21,'旅館裡向出來一歇還有日頭，跑著一半天陰下來，風呺起來，冷來結棍。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,22,'旁邊頭人一个也嘸沒，自家昰歇在何裡爿也弗曉得。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,23,'要弗是碰著一老一小好心箇馴鹿兩个，作興就然介畀凍煞脫哉……',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,24,'昰个弗需要話衹不過是瞎講講，但是冷是真箇冷透冷透箇。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,25,'來在Italia中部一隻舊城，我擔住箇旅館忘記。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,26,'跑著大約摸一个鐘頭，人適意在許、忖著歸去汏場浴箇辰光，旅館隻名字如何然也記弗起來。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,27,'乃昰記要死，問路也嘸辦法問哉。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,28,'齁來要死，東跑跑西跑跑，在末生頭眼門前𧾁出來隻在何裡看見歇箇旅館，總算九死一生。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,29,'弗是昰然箇說話真要一腳去哉。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,30,'在Graecia跑總歸是畀攔牢，叫我「阿哥，歇一歇進來喫杯ouzo𠲎？」，',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,31,'我當然回頭渠（排物事喫落去還好跑唻？）。',0,1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1120(asatid,assi,ascont,asst,asusid,ascrdt,asupdt) values(1,32,'言話講轉來，用自介兩隻腳一頭跑一頭望著箇風景，交關㜺。嗯。',0,1,current_timestamp,current_timestamp);
 
 /*segmentflow*/
-insert into PUBLIC.F1131 (taid,taasid,tasi,tapi,tahz,tast,tausid,tacrdt,taupdt) values(1,2,1,'kaon2 kaon2;tsy2 iau3;li2 yeu1 meh4;?','講講主要理由末：',1,'13000000001',current_timestamp,current_timestamp);
+insert into PUBLIC.F1131 (taid,taasid,tasi,tapi,tahz,tast,tausid,tacrdt,taupdt) values(1,2,1,'kaon2 kaon2;tsy2 iau3;li2 yeu1 meh4;?','講講主要理由末：',1,1,current_timestamp,current_timestamp);
 
 /*segmentvote*/
-insert into PUBLIC.F1132 (tvid,tvtaid,tvsi,tvusid,tvpo,tvcrdt,tvupdt) values(1,1,1,'13000000001',1,current_timestamp,current_timestamp);
+insert into PUBLIC.F1132 (tvid,tvtaid,tvsi,tvusid,tvpo,tvcrdt,tvupdt) values(1,1,1,1,1,current_timestamp,current_timestamp);
 
 /*dict*/
 insert into PUBLIC.F1011(dclsid,dchz,dcpt,dcrm) values('wuu-sha','之','tsy1','');
