@@ -5,12 +5,12 @@ insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-dsi','讀書音',
 insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-sha','上海言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-上海言話',8000);
 
 /*users*/
-insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000001','63a9f0ea7bb98050796b649e85481845','管理員',0,'wuu-sha',10);
-insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000002','63a9f0ea7bb98050796b649e85481845','上海A1',0,'wuu-sha',10);
-insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000003','63a9f0ea7bb98050796b649e85481845','上海A2',0,'wuu-sha',10);
-insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000004','63a9f0ea7bb98050796b649e85481845','上海B1',0,'wuu-sha',10);
-insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13400000001','63a9f0ea7bb98050796b649e85481845','上海B2',0,'wuu-sha',10);
-insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13400000002','63a9f0ea7bb98050796b649e85481845','初入門',0,'wuu-sha',10);
+insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000001','e10adc3949ba59abbe56e057f20f883e','管理員',0,'wuu-sha',10);
+insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000002','e10adc3949ba59abbe56e057f20f883e','上海A1',0,'wuu-sha',10);
+insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000003','e10adc3949ba59abbe56e057f20f883e','上海A2',0,'wuu-sha',10);
+insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000004','e10adc3949ba59abbe56e057f20f883e','上海B1',0,'wuu-sha',10);
+insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13400000001','e10adc3949ba59abbe56e057f20f883e','上海B2',0,'wuu-sha',10);
+insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13400000002','e10adc3949ba59abbe56e057f20f883e','初入門',0,'wuu-sha',10);
 
 /*roles*/
 insert into PUBLIC.F0310(rlid,rlname) values('manager','管理員');
