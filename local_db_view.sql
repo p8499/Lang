@@ -1,5 +1,14 @@
 set client_encoding=UTF8;
 
+/*id: certificate
+  description: 證書
+  comment: 
+ */
+create view public.V0331 as
+select *,
+L1110_CRLSNAME(t) CRLSNAME
+from public.F0331 t;
+
 /*id: article
   description: 文章
   comment: 
