@@ -6,7 +6,8 @@ set client_encoding=UTF8;
  */
 create view public.V0331 as
 select *,
-L1110_CRLSNAME(t) CRLSNAME
+public.L1110_CRLSNAME(t) CRLSNAME,
+public.L1110_CRLSLOC(t) CRLSLOC
 from public.F0331 t;
 
 /*id: article

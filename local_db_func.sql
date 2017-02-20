@@ -127,8 +127,20 @@ BEGIN
 END;
 $$LANGUAGE plpgsql;
 
-/*module: 文句
-  field: 類
+/*module: 證書
+  field: 語言名稱
+ */
+CREATE OR REPLACE FUNCTION public.L1110_CRLSNAME(F0331) RETURNS VARCHAR AS $$
+DECLARE
+	r VARCHAR;
+BEGIN
+	SELECT lsname INTO r FROM F1010 WHERE LSID=$1.CRLSID;
+   	RETURN r;
+END;
+$$LANGUAGE plpgsql;
+
+/*module: 證書
+  field: 學術名
  */
 CREATE OR REPLACE FUNCTION public.L1110_CRLSNAME(F0331) RETURNS VARCHAR AS $$
 DECLARE

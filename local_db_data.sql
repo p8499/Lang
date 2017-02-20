@@ -31,6 +31,10 @@ insert into PUBLIC.F0320(auid,auname) values('mobile','Mobile');
 insert into PUBLIC.F0321(rarlid,raauid) values('manager','mobile');
 insert into PUBLIC.F0321(rarlid,raauid) values('player','mobile');
 
+/*certificates*/
+insert into PUBLIC.F0331(crusid,crlsid,crlv,crefdt,crexdt) values(1,'wuu-dsi',20,current_timestamp,to_timestamp('2018/12/31 12:00:00','yyyy-mm-dd hh24:mi:ss'));
+insert into PUBLIC.F0331(crusid,crlsid,crlv,crefdt,crexdt) values(1,'wuu-sha',20,current_timestamp,to_timestamp('2018/12/31 12:00:00','yyyy-mm-dd hh24:mi:ss'));
+
 /*categories*/
 insert into PUBLIC.F1030(cglsid,cgsi,cgpsi,cgname,cgusid) values('wuu-sha',1,1,'吳語文庫',1);
 insert into PUBLIC.F1030(cglsid,cgsi,cgpsi,cgname,cgusid) values('wuu-sha',2,1,'月絕書',1);
