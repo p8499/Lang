@@ -1,8 +1,17 @@
 set client_encoding=UTF8;
 
 /*languages*/
-insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-dsi','讀書音','漢藏語系-漢語-吳語-讀書音',6000);
-insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-sha','上海言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-上海言話',8000);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-dsi','讀書音','漢藏語系-漢語-吳語-讀書音',100);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-sha','上海言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-上海言話',210);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-suz','蘇州言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-蘇州言話',211);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-wus','無錫言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-無錫言話',212);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-cha','常州言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-常州言話',213);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-cho','崇啟海話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-崇啟海話',214);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-nin','寧波言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-寧波言話',215); 
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-han','杭州話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-杭州話',216);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-jia','嘉興言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-嘉興言話',217);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-huz','湖州言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-湖州言話',218);
+insert into PUBLIC.F1010(lsid,lsname,lsloc,lssort) values('wuu-shx','紹興言話','漢藏語系-漢語-吳語-太湖片-蘇湖嘉小片-紹興言話',219);
 
 /*users*/
 insert into PUBLIC.F0301(uscell,uspswd,usname,usst,uslsid,uspn) values('13000000001','e10adc3949ba59abbe56e057f20f883e','管理員',0,'wuu-sha',10);
@@ -34,6 +43,8 @@ insert into PUBLIC.F0321(rarlid,raauid) values('player','mobile');
 /*certificates*/
 insert into PUBLIC.F0331(crusid,crlsid,crlv,crefdt,crexdt) values(1,'wuu-dsi',20,current_timestamp,to_timestamp('2018/12/31 12:00:00','yyyy-mm-dd hh24:mi:ss'));
 insert into PUBLIC.F0331(crusid,crlsid,crlv,crefdt,crexdt) values(1,'wuu-sha',20,current_timestamp,to_timestamp('2018/12/31 12:00:00','yyyy-mm-dd hh24:mi:ss'));
+insert into PUBLIC.F0331(crusid,crlsid,crlv,crefdt,crexdt) values(2,'wuu-sha',20,current_timestamp,to_timestamp('2017/02/28 00:00:00','yyyy-mm-dd hh24:mi:ss'));
+insert into PUBLIC.F0331(crusid,crlsid,crlv,crefdt,crexdt) values(3,'wuu-sha',20,current_timestamp,to_timestamp('2016/12/31 12:00:00','yyyy-mm-dd hh24:mi:ss'));
 
 /*categories*/
 insert into PUBLIC.F1030(cglsid,cgsi,cgpsi,cgname,cgusid) values('wuu-sha',1,1,'吳語文庫',1);

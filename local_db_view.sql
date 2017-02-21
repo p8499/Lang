@@ -1,5 +1,14 @@
 set client_encoding=UTF8;
 
+/*id: user
+  description: 用戶
+  comment: 
+ */
+create view public.V0301 as
+select *,
+public.L1110_USLSNAME(t) USLSNAME
+from public.F0301 t;
+
 /*id: certificate
   description: 證書
   comment: 
