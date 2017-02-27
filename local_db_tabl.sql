@@ -35,9 +35,7 @@ create table public.F0301(
     /*狀態*/
     USST SMALLINT NOT NULL,
     /*語言編碼*/
-    USLSID VARCHAR(16) NOT NULL,
-    /*單位能量*/
-    USPN SMALLINT NOT NULL
+    USLSID VARCHAR(16) NOT NULL
 );
 ALTER TABLE public.F0301 ADD CONSTRAINT USER_PRIMARY PRIMARY KEY (USID);
 ALTER TABLE public.F0301 ADD CONSTRAINT USER_UNIQUE_0 UNIQUE (USID);
@@ -53,7 +51,9 @@ create table public.F0309(
     /*創建編碼*/
     UCID SERIAL NOT NULL,
     /*創建辰光*/
-    UCCRDD TIMESTAMP NOT NULL,
+    UCCRDT TIMESTAMP NOT NULL,
+    /*更新辰光*/
+    UCUPDT TIMESTAMP NOT NULL,
     /*目標手機號頭*/
     UCCELL VARCHAR(16) NOT NULL,
     /*圖片驗證碼*/
