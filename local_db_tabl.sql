@@ -59,7 +59,7 @@ create table public.F0309(
     /*圖片驗證碼*/
     UCPV VARCHAR(6) NOT NULL,
     /*短信驗證碼*/
-    UCMV VARCHAR(6) NOT NULL,
+    UCMV VARCHAR(6),
     /*狀態*/
     UCST SMALLINT NOT NULL
 );

@@ -6,7 +6,7 @@ set client_encoding=UTF8;
  */
 create view public.V0301 as
 select *,
-public.L1110_USLSNAME(t) USLSNAME
+public.V0301_USLSNAME(t) USLSNAME
 from public.F0301 t;
 
 /*id: certificate
@@ -15,8 +15,8 @@ from public.F0301 t;
  */
 create view public.V0331 as
 select *,
-public.L1110_CRLSNAME(t) CRLSNAME,
-public.L1110_CRLSLOC(t) CRLSLOC
+public.V0331_CRLSNAME(t) CRLSNAME,
+public.V0331_CRLSLOC(t) CRLSLOC
 from public.F0331 t;
 
 /*id: article
@@ -25,13 +25,13 @@ from public.F0331 t;
  */
 create view public.V1110 as
 select *,
-public.L1110_ATBRF(t) ATBRF,
-public.L1110_ATCSA(t) ATCSA,
-public.L1110_ATCSB(t) ATCSB,
-public.L1110_ATCSC(t) ATCSC,
-public.L1110_ATCSD(t) ATCSD,
-public.L1110_ATCSE(t) ATCSE,
-public.L1110_ATCSF(t) ATCSF
+public.V1110_ATBRF(t) ATBRF,
+public.V1110_ATCSA(t) ATCSA,
+public.V1110_ATCSB(t) ATCSB,
+public.V1110_ATCSC(t) ATCSC,
+public.V1110_ATCSD(t) ATCSD,
+public.V1110_ATCSE(t) ATCSE,
+public.V1110_ATCSF(t) ATCSF
 from public.F1110 t;
 
 /*id: sentence
@@ -40,5 +40,5 @@ from public.F1110 t;
  */
 create view public.V1120 as
 select *,
-public.L1120_ASCS(t) ASCS
+public.V1120_ASCS(t) ASCS
 from public.F1120 t;
