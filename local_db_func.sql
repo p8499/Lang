@@ -1,4 +1,4 @@
-﻿set client_encoding=UTF8;
+set client_encoding=UTF8;
 
 /*module: 用戶
   field: 語言名稱
