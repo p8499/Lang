@@ -60,7 +60,9 @@ create table public.F0309(
     UCPV VARCHAR(6) NOT NULL,
     /*短信驗證碼*/
     UCMV VARCHAR(6),
-    /*狀態*/
+    /*動作*/
+    UCAC SMALLINT NOT NULL,
+    /*失效狀態*/
     UCST SMALLINT NOT NULL
 );
 ALTER TABLE public.F0309 ADD CONSTRAINT USERCREATION_PRIMARY PRIMARY KEY (UCID);
