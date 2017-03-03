@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root"
+              style="@style/ButtonStyle.Info.F"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="4dp"
+              android:layout_marginLeft="4dp"
+              android:layout_marginRight="4dp"
+              android:layout_marginTop="4dp"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/level"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_level_v1_yellow_48dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="设置设置"
+        android:textColor="#ffffffff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/expire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="remains"
+        android:textColor="#ffffd9b3"
+        android:textSize="16sp"/>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/window.Primary">
+
+    <ImageView
+        android:id="@+id/back"
+        style="@style/ImageStyle.Menu.A"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:src="@drawable/ic_arrow_back_white_48dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/signin"
+            style="@style/ImageStyle.Menu.A"
+            android:clickable="true"
+            android:src="@drawable/ic_account_circle_white_48dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            style="@style/ImageStyle.Menu.A"
+            android:clickable="true"
+            android:visibility="gone"
+            app:civ_border_color="#ffeeeeee"
+            app:civ_border_width="1dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/signup"
+        style="@style/ImageStyle.Menu.A"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:src="@drawable/ic_register_white_48dp"
+        android:visibility="gone"/>
+</RelativeLayout>

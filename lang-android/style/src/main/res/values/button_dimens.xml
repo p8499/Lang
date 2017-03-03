@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button.F.Height">36dp</dimen>
+    <dimen name="button.F.TextSize">18sp</dimen>
+    <dimen name="button.G.Height">32dp</dimen>
+    <dimen name="button.G.TextSize">16sp</dimen>
+    <dimen name="button.H.Height">28dp</dimen>
+    <dimen name="button.H.TextSize">14sp</dimen>
+</resources>

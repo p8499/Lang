@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image.Menu.A.Height">56dp</dimen>
+    <dimen name="image.Menu.A.Width">56dp</dimen>
+    <dimen name="image.Menu.A.PaddingVertical">14dp</dimen>
+    <dimen name="image.Menu.A.PaddingHorizontal">14dp</dimen>
+
+    <dimen name="image.Menu.B.Height">52dp</dimen>
+    <dimen name="image.Menu.B.Width">52dp</dimen>
+    <dimen name="image.Menu.B.PaddingVertical">13dp</dimen>
+    <dimen name="image.Menu.B.PaddingHorizontal">13dp</dimen>
+
+    <dimen name="image.Menu.C.Height">48dp</dimen>
+    <dimen name="image.Menu.C.Width">48dp</dimen>
+    <dimen name="image.Menu.C.PaddingVertical">12dp</dimen>
+    <dimen name="image.Menu.C.PaddingHorizontal">12dp</dimen>
+
+    <dimen name="image.Menu.D.Height">44dp</dimen>
+    <dimen name="image.Menu.D.Width">44dp</dimen>
+    <dimen name="image.Menu.D.PaddingVertical">11dp</dimen>
+    <dimen name="image.Menu.D.PaddingHorizontal">11dp</dimen>
+
+    <dimen name="image.Menu.E.Height">40dp</dimen>
+    <dimen name="image.Menu.E.Width">40dp</dimen>
+    <dimen name="image.Menu.E.PaddingVertical">10dp</dimen>
+    <dimen name="image.Menu.E.PaddingHorizontal">10dp</dimen>
+
+    <dimen name="image.Menu.F.Height">36dp</dimen>
+    <dimen name="image.Menu.F.Width">36dp</dimen>
+    <dimen name="image.Menu.F.PaddingVertical">9dp</dimen>
+    <dimen name="image.Menu.F.PaddingHorizontal">9dp</dimen>
+
+    <dimen name="image.Menu.G.Height">32dp</dimen>
+    <dimen name="image.Menu.G.Width">32dp</dimen>
+    <dimen name="image.Menu.G.PaddingVertical">8dp</dimen>
+    <dimen name="image.Menu.G.PaddingHorizontal">8dp</dimen>
+
+    <dimen name="image.Menu.H.Height">28dp</dimen>
+    <dimen name="image.Menu.H.Width">28dp</dimen>
+    <dimen name="image.Menu.H.PaddingVertical">7dp</dimen>
+    <dimen name="image.Menu.H.PaddingHorizontal">7dp</dimen>
+
+    <dimen name="image.Addon.F.Height">36dp</dimen>
+    <dimen name="image.Addon.F.Width">36dp</dimen>
+    <dimen name="image.Addon.F.PaddingVertical">9dp</dimen>
+    <dimen name="image.Addon.F.PaddingHorizontal">9dp</dimen>
+
+    <dimen name="image.Addon.G.Height">32dp</dimen>
+    <dimen name="image.Addon.G.Width">32dp</dimen>
+    <dimen name="image.Addon.G.PaddingVertical">8dp</dimen>
+    <dimen name="image.Addon.G.PaddingHorizontal">8dp</dimen>
+
+    <dimen name="image.Addon.H.Height">28dp</dimen>
+    <dimen name="image.Addon.H.Width">28dp</dimen>
+    <dimen name="image.Addon.H.PaddingVertical">7dp</dimen>
+    <dimen name="image.Addon.H.PaddingHorizontal">7dp</dimen>
+</resources>

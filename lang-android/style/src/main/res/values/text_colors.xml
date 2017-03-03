@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text.Default.TextColor">#ff333333</color>
+    <color name="text.Muted.TextColor">#ff777777</color>
+    <color name="text.Primary.TextColor">#ff337ab7</color>
+    <color name="text.Success.TextColor">#ff3c763d</color>
+    <color name="text.Info.TextColor">#ff31708f</color>
+    <color name="text.Warning.TextColor">#ff8a6d3b</color>
+    <color name="text.Danger.TextColor">#ffa94442</color>
+    <color name="text.Addon.TextColor">#ff555555</color>
+    <color name="text.Addon.Background">#ffeeeeee</color>
+    <color name="text.Addon.Border">#ffcccccc</color>
+</resources>

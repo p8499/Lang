@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--F-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.F"
+                android:layout_width="216dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.End.F"
+                android:layout_width="216dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.F"
+                android:layout_width="216dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.F"
+            android:layout_width="216dp"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--F Disabled-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.F"
+                android:layout_width="216dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.End.F"
+                android:layout_width="216dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.F"
+                android:layout_width="216dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.F"
+                android:layout_width="36dp"
+                android:layout_gravity="center_vertical"
+                android:text="F"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.F"
+            android:layout_width="216dp"
+            android:layout_margin="4dp"
+            android:enabled="false"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--G-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.G"
+                android:layout_width="192dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.End.G"
+                android:layout_width="192dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.G"
+                android:layout_width="192dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.G"
+            android:layout_width="192dp"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--G Disabled-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.G"
+                android:layout_width="192dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.End.G"
+                android:layout_width="192dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.G"
+                android:layout_width="192dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.G"
+                android:layout_width="32dp"
+                android:layout_gravity="center_vertical"
+                android:text="G"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.G"
+            android:layout_width="192dp"
+            android:layout_margin="4dp"
+            android:enabled="false"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--H-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.H"
+                android:layout_width="168dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.End.H"
+                android:layout_width="168dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.H"
+                android:layout_width="168dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.H"
+            android:layout_width="168dp"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--H Disabled-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.H"
+                android:layout_width="168dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyle.Addon.Start.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.End.H"
+                android:layout_width="168dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.H"
+                android:layout_width="168dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <TextView
+                style="@style/TextStyle.Addon.End.H"
+                android:layout_width="28dp"
+                android:layout_gravity="center_vertical"
+                android:text="H"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.H"
+            android:layout_width="168dp"
+            android:layout_margin="4dp"
+            android:enabled="false"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+
+        <!--Icon F-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.F"
+                android:layout_width="216dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.End.F"
+                android:layout_width="216dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.F"
+                android:layout_width="216dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.F"
+            android:layout_width="216dp"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--Icon F Disabled-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.F"
+                android:layout_width="216dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+
+            <EditText
+                style="@style/EditStyle.End.F"
+                android:layout_width="216dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.F"
+                android:layout_width="216dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="F"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.F"
+            android:layout_width="216dp"
+            android:layout_margin="4dp"
+            android:enabled="false"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--Icon G-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.G"
+                android:layout_width="192dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.End.G"
+                android:layout_width="192dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.G"
+                android:layout_width="192dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.G"
+            android:layout_width="192dp"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--Icon G Disabled-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.G"
+                android:layout_width="192dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+
+            <EditText
+                style="@style/EditStyle.End.G"
+                android:layout_width="192dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.G"
+                android:layout_width="192dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.G"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="G"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.G"
+            android:layout_width="192dp"
+            android:layout_margin="4dp"
+            android:enabled="false"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--Icon H-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.H"
+                android:layout_width="168dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.End.H"
+                android:layout_width="168dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.H"
+                android:layout_width="168dp"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.H"
+            android:layout_width="168dp"
+            android:layout_margin="4dp"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+        <!--Icon H Disabled-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.Middle.H"
+                android:layout_width="168dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageStyle.Addon.Start.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+
+            <EditText
+                style="@style/EditStyle.End.H"
+                android:layout_width="168dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/EditStyle.Start.H"
+                android:layout_width="168dp"
+                android:enabled="false"
+                android:gravity="center_vertical|end"
+                android:text="Value is nothing"/>
+
+            <ImageView
+                style="@style/ImageStyle.Addon.End.H"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_secure"
+                android:text="H"/>
+
+        </LinearLayout>
+
+        <EditText
+            style="@style/EditStyle.H"
+            android:layout_width="168dp"
+            android:layout_margin="4dp"
+            android:enabled="false"
+            android:gravity="center_vertical|end"
+            android:text="Value is nothing"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

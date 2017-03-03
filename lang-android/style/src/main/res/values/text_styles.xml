@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="_TextStyle"/>
+
+    <style name="_TextStyle.Default" parent="_TextStyle">
+        <item name="android:textColor">@color/text.Default.TextColor</item>
+    </style>
+
+    <style name="TextStyle.Default.F" parent="_TextStyle.Default">
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Default.G" parent="_TextStyle.Default">
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Default.H" parent="_TextStyle.Default">
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Default.I" parent="_TextStyle.Default">
+        <item name="android:textSize">@dimen/text.I.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Default.J" parent="_TextStyle.Default">
+        <item name="android:textSize">@dimen/text.J.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Muted" parent="_TextStyle">
+        <item name="android:textColor">@color/text.Muted.TextColor</item>
+    </style>
+
+    <style name="TextStyle.Muted.F" parent="_TextStyle.Muted">
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Muted.G" parent="_TextStyle.Muted">
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Muted.H" parent="_TextStyle.Muted">
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Muted.I" parent="_TextStyle.Muted">
+        <item name="android:textSize">@dimen/text.I.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Muted.J" parent="_TextStyle.Muted">
+        <item name="android:textSize">@dimen/text.J.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Primary" parent="_TextStyle">
+        <item name="android:textColor">@color/text.Primary.TextColor</item>
+    </style>
+
+    <style name="TextStyle.Primary.F" parent="_TextStyle.Primary">
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Primary.G" parent="_TextStyle.Primary">
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Primary.H" parent="_TextStyle.Primary">
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Primary.I" parent="_TextStyle.Primary">
+        <item name="android:textSize">@dimen/text.I.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Primary.J" parent="_TextStyle.Primary">
+        <item name="android:textSize">@dimen/text.J.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Success" parent="_TextStyle">
+        <item name="android:textColor">@color/text.Success.TextColor</item>
+    </style>
+
+    <style name="TextStyle.Success.F" parent="_TextStyle.Success">
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Success.G" parent="_TextStyle.Success">
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Success.H" parent="_TextStyle.Success">
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Success.I" parent="_TextStyle.Success">
+        <item name="android:textSize">@dimen/text.I.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Success.J" parent="_TextStyle.Success">
+        <item name="android:textSize">@dimen/text.J.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Info" parent="_TextStyle">
+        <item name="android:textColor">@color/text.Info.TextColor</item>
+    </style>
+
+    <style name="TextStyle.Info.F" parent="_TextStyle.Info">
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Info.G" parent="_TextStyle.Info">
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Info.H" parent="_TextStyle.Info">
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Info.I" parent="_TextStyle.Info">
+        <item name="android:textSize">@dimen/text.I.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Info.J" parent="_TextStyle.Info">
+        <item name="android:textSize">@dimen/text.J.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Warning" parent="_TextStyle">
+        <item name="android:textColor">@color/text.Warning.TextColor</item>
+    </style>
+
+    <style name="TextStyle.Warning.F" parent="_TextStyle.Warning">
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Warning.G" parent="_TextStyle.Warning">
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Warning.H" parent="_TextStyle.Warning">
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Warning.I" parent="_TextStyle.Warning">
+        <item name="android:textSize">@dimen/text.I.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Warning.J" parent="_TextStyle.Warning">
+        <item name="android:textSize">@dimen/text.J.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Danger" parent="_TextStyle">
+        <item name="android:textColor">@color/text.Danger.TextColor</item>
+    </style>
+
+    <style name="TextStyle.Danger.F" parent="_TextStyle.Danger">
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Danger.G" parent="_TextStyle.Danger">
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Danger.H" parent="_TextStyle.Danger">
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Danger.I" parent="_TextStyle.Danger">
+        <item name="android:textSize">@dimen/text.I.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Danger.J" parent="_TextStyle.Danger">
+        <item name="android:textSize">@dimen/text.J.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Addon" parent="_TextStyle">
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textColor">@color/text.Addon.TextColor</item>
+    </style>
+
+    <style name="_TextStyle.Addon.Start" parent="_TextStyle.Addon">
+        <item name="android:background">@drawable/text_addon_start_background</item>
+    </style>
+
+    <style name="TextStyle.Addon.Start.F" parent="_TextStyle.Addon.Start">
+        <item name="android:layout_height">@dimen/text.Addon.F.Height</item>
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Addon.Start.G" parent="_TextStyle.Addon.Start">
+        <item name="android:layout_height">@dimen/text.Addon.G.Height</item>
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Addon.Start.H" parent="_TextStyle.Addon.Start">
+        <item name="android:layout_height">@dimen/text.Addon.H.Height</item>
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+
+    <style name="_TextStyle.Addon.End" parent="_TextStyle.Addon">
+        <item name="android:background">@drawable/text_addon_end_background</item>
+    </style>
+
+    <style name="TextStyle.Addon.End.F" parent="_TextStyle.Addon.End">
+        <item name="android:layout_height">@dimen/text.Addon.F.Height</item>
+        <item name="android:textSize">@dimen/text.F.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Addon.End.G" parent="_TextStyle.Addon.End">
+        <item name="android:layout_height">@dimen/text.Addon.G.Height</item>
+        <item name="android:textSize">@dimen/text.G.TextSize</item>
+    </style>
+
+    <style name="TextStyle.Addon.End.H" parent="_TextStyle.Addon.End">
+        <item name="android:layout_height">@dimen/text.Addon.H.Height</item>
+        <item name="android:textSize">@dimen/text.H.TextSize</item>
+    </style>
+</resources>

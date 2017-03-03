@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="separator.Background">#ffdddddd</color>
+
+    <color name="layout.Default.TextColor.Normal">#ff333333</color>
+    <color name="layout.Default.Background.Normal">#ffffffff</color>
+    <color name="layout.Default.Background.Selected">#fff5f5f5</color>
+    <color name="layout.Default.Background.Focused">#fff5f5f5</color>
+    <color name="layout.Default.Background.Pressed">#fff5f5f5</color>
+
+    <color name="layout.Success.TextColor.Normal">#ff333333</color>
+    <color name="layout.Success.Background.Normal">#ffdff0d8</color>
+    <color name="layout.Success.Background.Selected">#ffd0e9c6</color>
+    <color name="layout.Success.Background.Focused">#ffd0e9c6</color>
+    <color name="layout.Success.Background.Pressed">#ffd0e9c6</color>
+
+    <color name="layout.Info.TextColor.Normal">#ff333333</color>
+    <color name="layout.Info.Background.Normal">#ffc4e3f3</color>
+    <color name="layout.Info.Background.Selected">#ffc4e3f3</color>
+    <color name="layout.Info.Background.Focused">#ffc4e3f3</color>
+    <color name="layout.Info.Background.Pressed">#ffc4e3f3</color>
+
+    <color name="layout.Warning.TextColor.Normal">#ff333333</color>
+    <color name="layout.Warning.Background.Normal">#fffcf8e3</color>
+    <color name="layout.Warning.Background.Selected">#fffaf2cc</color>
+    <color name="layout.Warning.Background.Focused">#fffaf2cc</color>
+    <color name="layout.Warning.Background.Pressed">#fffaf2cc</color>
+
+    <color name="layout.Danger.TextColor.Normal">#ff333333</color>
+    <color name="layout.Danger.Background.Normal">#fff2dede</color>
+    <color name="layout.Danger.Background.Selected">#ffebcccc</color>
+    <color name="layout.Danger.Background.Focused">#ffebcccc</color>
+    <color name="layout.Danger.Background.Pressed">#ffebcccc</color>
+
+</resources>

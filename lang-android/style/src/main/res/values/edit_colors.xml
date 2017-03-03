@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="edit.TextColor.Normal">#ff555555</color>
+    <color name="edit.Border.Normal">#ffcccccc</color>
+    <color name="edit.Background.Normal">#ffffffff</color>
+    <color name="edit.Background.Disabled">#ffeeeeee</color>
+    <color name="edit.Border.Selected">#ff66afe9</color>
+    <color name="edit.Border.Focused">#ff66afe9</color>
+    <color name="edit.Border.Pressed">#ff66afe9</color>
+
+</resources>

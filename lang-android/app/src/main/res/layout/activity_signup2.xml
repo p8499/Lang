@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.p8499.lang.Signup2Activity">
+
+    <fragment
+        android:id="@+id/title"
+        android:name="com.p8499.lang.TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:layout="@layout/fragment_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ic_phone"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_phone_android_addon_48dp"/>
+
+            <EditText
+                android:id="@+id/phone"
+                style="@style/EditStyle.End.F"
+                android:layout_width="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ic_phone"
+                android:enabled="false"
+                android:gravity="left|start|center_vertical"
+                android:inputType="phone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/ic_name"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:src="@drawable/ic_name_addon_48dp"/>
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/EditStyle.End.F"
+                android:layout_width="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ic_name"
+                android:gravity="left|start|center_vertical"
+                android:hint="@string/activity_signup2_hintname"
+                android:inputType="text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/ic_pass"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_lock_addon_48dp"/>
+
+            <ImageView
+                android:id="@+id/eyeoff"
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:src="@drawable/ic_eyeoff_addon_48dp"/>
+
+            <ImageView
+                android:id="@+id/eyeon"
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:src="@drawable/ic_eyeon_addon_48dp"
+                android:visibility="invisible"/>
+
+            <EditText
+                android:id="@+id/pass"
+                style="@style/EditStyle.Middle.F"
+                android:layout_width="match_parent"
+                android:layout_toLeftOf="@id/eyeoff"
+                android:layout_toRightOf="@id/ic_pass"
+                android:gravity="left|start|center_vertical"
+                android:hint="@string/activity_signup2_hintpass"
+                android:inputType="textPassword"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/ic_pass2"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_lock_bordered_addon_48dp"/>
+
+            <ImageView
+                android:id="@+id/eyeoff2"
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:src="@drawable/ic_eyeoff_addon_48dp"/>
+
+            <ImageView
+                android:id="@+id/eyeon2"
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:src="@drawable/ic_eyeon_addon_48dp"
+                android:visibility="invisible"/>
+
+            <EditText
+                android:id="@+id/pass2"
+                style="@style/EditStyle.Middle.F"
+                android:layout_width="match_parent"
+                android:layout_toLeftOf="@id/eyeoff2"
+                android:layout_toRightOf="@id/ic_pass2"
+                android:gravity="left|start|center_vertical"
+                android:hint="@string/activity_signup2_hintpass2"
+                android:inputType="textPassword"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/ic_favlang"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_wuu_primary_48dp"/>
+
+            <EditText
+                android:id="@+id/favlang"
+                style="@style/EditStyle.End.F"
+                android:layout_width="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ic_favlang"
+                android:clickable="true"
+                android:editable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="left|start|center_vertical"
+                android:hint="@string/activity_signup2_hintfavlang"
+                android:inputType="none"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/finalize"
+            style="@style/ButtonStyle.Primary.F"
+            android:layout_width="match_parent"
+            android:layout_marginTop="32dp"
+            android:text="@string/activity_signup2_create"/>
+    </LinearLayout>
+</LinearLayout>

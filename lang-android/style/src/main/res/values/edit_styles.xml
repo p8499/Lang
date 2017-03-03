@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="_EditStyle">
+        <item name="android:background">@drawable/edit_background</item>
+        <item name="android:textColor">@color/edit.TextColor.Normal</item>
+    </style>
+
+    <style name="EditStyle.F" parent="_EditStyle">
+        <item name="android:layout_height">@dimen/edit.F.Height</item>
+        <item name="android:textSize">@dimen/edit.F.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.F.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.F.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.G" parent="_EditStyle">
+        <item name="android:layout_height">@dimen/edit.G.Height</item>
+        <item name="android:textSize">@dimen/edit.G.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.G.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.G.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.H" parent="_EditStyle">
+        <item name="android:layout_height">@dimen/edit.H.Height</item>
+        <item name="android:textSize">@dimen/edit.H.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.H.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.H.paddingHorizontal</item>
+    </style>
+
+    <style name="_EditStyle.Start" parent="_EditStyle">
+        <item name="android:background">@drawable/edit_start_background</item>
+    </style>
+
+    <style name="EditStyle.Start.F" parent="_EditStyle.Start">
+        <item name="android:layout_height">@dimen/edit.F.Height</item>
+        <item name="android:textSize">@dimen/edit.F.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.F.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.F.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.Start.G" parent="_EditStyle.Start">
+        <item name="android:layout_height">@dimen/edit.G.Height</item>
+        <item name="android:textSize">@dimen/edit.G.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.G.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.G.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.Start.H" parent="_EditStyle.Start">
+        <item name="android:layout_height">@dimen/edit.H.Height</item>
+        <item name="android:textSize">@dimen/edit.H.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.H.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.H.paddingHorizontal</item>
+    </style>
+
+    <style name="_EditStyle.End" parent="_EditStyle">
+        <item name="android:background">@drawable/edit_end_background</item>
+    </style>
+
+    <style name="EditStyle.End.F" parent="_EditStyle.End">
+        <item name="android:layout_height">@dimen/edit.F.Height</item>
+        <item name="android:textSize">@dimen/edit.F.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.F.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.F.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.End.G" parent="_EditStyle.End">
+        <item name="android:layout_height">@dimen/edit.G.Height</item>
+        <item name="android:textSize">@dimen/edit.G.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.G.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.G.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.End.H" parent="_EditStyle.End">
+        <item name="android:layout_height">@dimen/edit.H.Height</item>
+        <item name="android:textSize">@dimen/edit.H.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.H.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.H.paddingHorizontal</item>
+    </style>
+
+    <style name="_EditStyle.Middle" parent="_EditStyle">
+        <item name="android:background">@drawable/edit_middle_background</item>
+    </style>
+
+    <style name="EditStyle.Middle.F" parent="_EditStyle.Middle">
+        <item name="android:layout_height">@dimen/edit.F.Height</item>
+        <item name="android:textSize">@dimen/edit.F.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.F.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.F.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.Middle.G" parent="_EditStyle.Middle">
+        <item name="android:layout_height">@dimen/edit.G.Height</item>
+        <item name="android:textSize">@dimen/edit.G.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.G.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.G.paddingHorizontal</item>
+    </style>
+
+    <style name="EditStyle.Middle.H" parent="_EditStyle.Middle">
+        <item name="android:layout_height">@dimen/edit.H.Height</item>
+        <item name="android:textSize">@dimen/edit.H.TextSize</item>
+        <item name="android:paddingLeft">@dimen/edit.H.paddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/edit.H.paddingHorizontal</item>
+    </style>
+</resources>

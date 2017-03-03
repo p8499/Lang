@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text.F.TextSize">18sp</dimen>
+    <dimen name="text.G.TextSize">16sp</dimen>
+    <dimen name="text.H.TextSize">14sp</dimen>
+    <dimen name="text.I.TextSize">12sp</dimen>
+    <dimen name="text.J.TextSize">10sp</dimen>
+    <dimen name="text.Addon.F.Height">36dp</dimen>
+    <dimen name="text.Addon.G.Height">32dp</dimen>
+    <dimen name="text.Addon.H.Height">28dp</dimen>
+</resources>

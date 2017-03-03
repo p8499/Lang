@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separator.Height">1dp</dimen>
+    <dimen name="layout.16.PaddingVertical">16dp</dimen>
+    <dimen name="layout.16.PaddingHorizontal">16dp</dimen>
+    <dimen name="layout.12.PaddingVertical">12dp</dimen>
+    <dimen name="layout.12.PaddingHorizontal">12dp</dimen>
+    <dimen name="layout.8.PaddingVertical">8dp</dimen>
+    <dimen name="layout.8.PaddingHorizontal">8dp</dimen>
+    <dimen name="layout.4.PaddingVertical">4dp</dimen>
+    <dimen name="layout.4.PaddingHorizontal">4dp</dimen>
+    <dimen name="layout.0.PaddingVertical">0dp</dimen>
+    <dimen name="layout.0.PaddingHorizontal">0dp</dimen>
+</resources>

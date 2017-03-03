@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">廣而告之</string>
+    <string name="fragment_title_error">失敗</string>
+
+    <string name="activity_main_title">廣而告之</string>
+
+    <string name="activity_signin_title">登錄</string>
+    <string name="activity_signin_hintphone">手機號頭</string>
+    <string name="activity_signin_hintpass">密碼</string>
+    <string name="activity_signin_signin">登錄</string>
+    <string name="activity_signin_success">登錄成功</string>
+    <string name="activity_signin_fail">登錄失敗</string>
+    <string name="activity_signin_error">失敗</string>
+
+    <string name="activity_signup1_title">註冊</string>
+    <string name="activity_signup1_hintphone">手機號頭</string>
+    <string name="activity_signup1_hintpv">點擊左首圖標，輸入驗證碼</string>
+    <string name="activity_signup1_hintmv">輸入短信驗證碼</string>
+    <string name="activity_signup1_verify">號頭驗證</string>
+    <string name="activity_signup1_next">下一步</string>
+    <string name="activity_signup1_conflict">帳號存在</string>
+    <string name="activity_signup1_forbidden">今朝短信發送次數超限</string>
+    <string name="activity_signup1_incorrect">弗正確</string>
+    <string name="activity_signup1_timeout">超時</string>
+    <string name="activity_signup1_error">失敗</string>
+
+    <string name="activity_signup2_title">註冊</string>
+    <string name="activity_signup2_hintname">昵稱</string>
+    <string name="activity_signup2_hintpass">密碼</string>
+    <string name="activity_signup2_hintpass2">再打一遍密碼</string>
+    <string name="activity_signup2_hintfavlang">首選方言</string>
+    <string name="activity_signup2_create">創建帳號</string>
+    <string name="activity_signup2_success">註冊成功</string>
+    <string name="activity_signup2_noname">起隻啥名字呢</string>
+    <string name="activity_singup2_shortpass">密碼弗足四位</string>
+    <string name="activity_signup2_mismatch">密碼弗一致</string>
+    <string name="activity_signup2_nolang">默認方言沒選擇</string>
+    <string name="activity_signup2_timeout">超時</string>
+    <string name="activity_signup2_error">失敗</string>
+
+    <string name="activity_profile_title">個人中心</string>
+    <string name="activity_profile_favlang">首選方言</string>
+    <string name="activity_profile_mycerti">方言證書</string>
+    <string name="activity_profile_uppass">修改密碼</string>
+    <string name="activity_profile_signout">登出</string>
+    <string name="activity_profile_error">失敗</string>
+
+    <string name="activity_certificates_title">證書中心</string>
+    <string name="activity_certificates_expire0">已經過期</string>
+    <string name="activity_certificates_expire1">今朝過期</string>
+    <string name="activity_certificates_expire2">明朝過期</string>
+    <string name="activity_certificates_expire3">%d天內過期</string>
+    <string name="activity_certificates_error">失敗</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="image.Addon.Background">#ffeeeeee</color>
+    <color name="image.Addon.Border">#ffcccccc</color>
+    <color name="image.Menu.Background.Normal">#00ffffff</color>
+    <color name="image.Menu.Background.Disabled">#00ffffff</color>
+    <color name="image.Menu.Background.Selected">#26ffffff</color>
+    <color name="image.Menu.Background.Focused">#26ffffff</color>
+    <color name="image.Menu.Background.Pressed">#59ffffff</color>
+</resources>

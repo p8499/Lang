@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="SeparatorStyle">
+        <item name="android:layout_height">@dimen/separator.Height</item>
+        <item name="android:background">@color/separator.Background</item>
+    </style>
+
+    <style name="_LayoutStyle"/>
+
+    <style name="_LayoutStyle.Default" parent="_LayoutStyle">
+        <item name="android:background">@drawable/layout_default_background</item>
+    </style>
+
+    <style name="LayoutStyle.Default.0" parent="_LayoutStyle.Default">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.4" parent="_LayoutStyle.Default">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.8" parent="_LayoutStyle.Default">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.12" parent="_LayoutStyle.Default">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.16" parent="_LayoutStyle.Default">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Default.Clickable" parent="_LayoutStyle.Default">
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="LayoutStyle.Default.Clickable.0" parent="_LayoutStyle.Default.Clickable">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.Clickable.4" parent="_LayoutStyle.Default.Clickable">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.Clickable.8" parent="_LayoutStyle.Default.Clickable">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.Clickable.12" parent="_LayoutStyle.Default.Clickable">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Default.Clickable.16" parent="_LayoutStyle.Default.Clickable">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Danger" parent="_LayoutStyle">
+        <item name="android:background">@drawable/layout_danger_background</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.0" parent="_LayoutStyle.Danger">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.4" parent="_LayoutStyle.Danger">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.8" parent="_LayoutStyle.Danger">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.12" parent="_LayoutStyle.Danger">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.16" parent="_LayoutStyle.Danger">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Danger.Clickable" parent="_LayoutStyle.Danger">
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.Clickable.0" parent="_LayoutStyle.Danger.Clickable">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.Clickable.4" parent="_LayoutStyle.Danger.Clickable">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.Clickable.8" parent="_LayoutStyle.Danger.Clickable">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.Clickable.12" parent="_LayoutStyle.Danger.Clickable">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Danger.Clickable.16" parent="_LayoutStyle.Danger.Clickable">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Info" parent="_LayoutStyle">
+        <item name="android:background">@drawable/layout_info_background</item>
+    </style>
+
+    <style name="LayoutStyle.Info.0" parent="_LayoutStyle.Info">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.4" parent="_LayoutStyle.Info">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.8" parent="_LayoutStyle.Info">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.12" parent="_LayoutStyle.Info">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.16" parent="_LayoutStyle.Info">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Info.Clickable" parent="_LayoutStyle.Info">
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="LayoutStyle.Info.Clickable.0" parent="_LayoutStyle.Info.Clickable">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.Clickable.4" parent="_LayoutStyle.Info.Clickable">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.Clickable.8" parent="_LayoutStyle.Info.Clickable">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.Clickable.12" parent="_LayoutStyle.Info.Clickable">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Info.Clickable.16" parent="_LayoutStyle.Info.Clickable">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Success" parent="_LayoutStyle">
+        <item name="android:background">@drawable/layout_success_background</item>
+    </style>
+
+    <style name="LayoutStyle.Success.0" parent="_LayoutStyle.Success">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.4" parent="_LayoutStyle.Success">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.8" parent="_LayoutStyle.Success">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.12" parent="_LayoutStyle.Success">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.16" parent="_LayoutStyle.Success">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Success.Clickable" parent="_LayoutStyle.Success">
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="LayoutStyle.Success.Clickable.0" parent="_LayoutStyle.Success.Clickable">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.Clickable.4" parent="_LayoutStyle.Success.Clickable">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.Clickable.8" parent="_LayoutStyle.Success.Clickable">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.Clickable.12" parent="_LayoutStyle.Success.Clickable">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Success.Clickable.16" parent="_LayoutStyle.Success.Clickable">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Warning" parent="_LayoutStyle">
+        <item name="android:background">@drawable/layout_warning_background</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.0" parent="_LayoutStyle.Warning">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.4" parent="_LayoutStyle.Warning">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.8" parent="_LayoutStyle.Warning">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.12" parent="_LayoutStyle.Warning">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.16" parent="_LayoutStyle.Warning">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+    <style name="_LayoutStyle.Warning.Clickable" parent="_LayoutStyle.Warning">
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.Clickable.0" parent="_LayoutStyle.Warning.Clickable">
+        <item name="android:paddingTop">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.0.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.0.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.0.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.Clickable.4" parent="_LayoutStyle.Warning.Clickable">
+        <item name="android:paddingTop">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.4.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.4.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.4.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.Clickable.8" parent="_LayoutStyle.Warning.Clickable">
+        <item name="android:paddingTop">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.8.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.8.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.8.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.Clickable.12" parent="_LayoutStyle.Warning.Clickable">
+        <item name="android:paddingTop">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.12.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.12.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.12.PaddingHorizontal</item>
+    </style>
+
+    <style name="LayoutStyle.Warning.Clickable.16" parent="_LayoutStyle.Warning.Clickable">
+        <item name="android:paddingTop">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/layout.16.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/layout.16.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/layout.16.PaddingHorizontal</item>
+    </style>
+
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.p8499.lang.ProfileActivity">
+
+    <fragment
+        android:id="@+id/title"
+        android:name="com.p8499.lang.TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:layout="@layout/fragment_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:id="@+id/ct_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/portrait"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                app:civ_border_color="#ffeeeeee"
+                app:civ_border_width="2dp"/>
+
+            <ImageView
+                android:id="@+id/edit_cell"
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:clickable="true"
+                android:src="@drawable/ic_edit_addon_48dp"/>
+
+            <EditText
+                android:id="@+id/cell"
+                style="@style/EditStyle.Start.F"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toLeftOf="@id/edit_cell"
+                android:layout_toRightOf="@id/portrait"
+                android:enabled="false"
+                android:inputType="phone"/>
+
+            <ImageView
+                android:id="@+id/edit_name"
+                style="@style/ImageStyle.Addon.End.F"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/edit_cell"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:clickable="true"
+                android:src="@drawable/ic_edit_addon_48dp"/>
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/EditStyle.Start.F"
+                android:layout_width="match_parent"
+                android:layout_below="@id/cell"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_toLeftOf="@id/edit_name"
+                android:layout_toRightOf="@id/portrait"
+                android:enabled="false"
+                android:inputType="text"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/signout"
+            style="@style/ButtonStyle.Danger.F"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/activity_profile_signout"/>
+
+        <Button
+            android:id="@+id/uppass"
+            style="@style/ButtonStyle.Primary.F"
+            android:layout_width="match_parent"
+            android:layout_above="@id/signout"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/activity_profile_uppass"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/uppass"
+            android:layout_below="@id/ct_user"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ct_favlang"
+                style="@style/LayoutStyle.Default.Clickable.4"
+                android:layout_width="match_parent"
+                android:layout_height="44dp">
+
+                <ImageView
+                    android:id="@+id/ic_favlang"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_wuu_primary_48dp"/>
+
+                <TextView
+                    style="@style/TextStyle.Default.G"
+                    android:layout_width="232dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/ic_favlang"
+                    android:text="@string/activity_profile_favlang"/>
+
+                <ImageView
+                    android:id="@+id/more_favlang"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_keyboard_arrow_right_default_48dp"/>
+
+                <TextView
+                    android:id="@+id/favlang"
+                    style="@style/TextStyle.Muted.G"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/more_favlang"
+                    android:text="0"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/SeparatorStyle"
+                android:layout_width="match_parent"/>
+
+            <RelativeLayout
+                android:id="@+id/ct_mycerti"
+                style="@style/LayoutStyle.Default.Clickable.4"
+                android:layout_width="match_parent"
+                android:layout_height="44dp">
+
+                <ImageView
+                    android:id="@+id/ic_mycerti"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_doctor_primary_48dp"/>
+
+                <TextView
+                    style="@style/TextStyle.Default.G"
+                    android:layout_width="232dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/ic_mycerti"
+                    android:text="@string/activity_profile_mycerti"/>
+
+                <ImageView
+                    android:id="@+id/more_mycerti"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_keyboard_arrow_right_default_48dp"/>
+
+                <TextView
+                    android:id="@+id/mycerti"
+                    style="@style/TextStyle.Muted.G"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/more_mycerti"
+                    android:text="0"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

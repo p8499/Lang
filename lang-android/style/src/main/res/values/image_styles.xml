@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="_ImageStyle"/>
+
+    <style name="_ImageStyle.Addon" parent="_ImageStyle">
+
+    </style>
+
+    <style name="_ImageStyle.Addon.Start" parent="_ImageStyle.Addon">
+        <item name="android:background">@drawable/image_addon_start_background</item>
+    </style>
+
+    <style name="ImageStyle.Addon.Start.F" parent="_ImageStyle.Addon.Start">
+        <item name="android:layout_height">@dimen/image.Addon.F.Height</item>
+        <item name="android:layout_width">@dimen/image.Addon.F.Width</item>
+        <item name="android:paddingTop">@dimen/image.Addon.F.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Addon.F.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Addon.F.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Addon.F.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Addon.Start.G" parent="_ImageStyle.Addon.Start">
+        <item name="android:layout_height">@dimen/image.Addon.G.Height</item>
+        <item name="android:layout_width">@dimen/image.Addon.G.Width</item>
+        <item name="android:paddingTop">@dimen/image.Addon.G.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Addon.G.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Addon.G.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Addon.G.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Addon.Start.H" parent="_ImageStyle.Addon.Start">
+        <item name="android:layout_height">@dimen/image.Addon.H.Height</item>
+        <item name="android:layout_width">@dimen/image.Addon.H.Width</item>
+        <item name="android:paddingTop">@dimen/image.Addon.H.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Addon.H.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Addon.H.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Addon.H.PaddingHorizontal</item>
+    </style>
+
+    <style name="_ImageStyle.Addon.End" parent="_ImageStyle.Addon">
+        <item name="android:background">@drawable/image_addon_end_background</item>
+    </style>
+
+    <style name="ImageStyle.Addon.End.F" parent="_ImageStyle.Addon.End">
+        <item name="android:layout_height">@dimen/image.Addon.F.Height</item>
+        <item name="android:layout_width">@dimen/image.Addon.F.Width</item>
+        <item name="android:paddingTop">@dimen/image.Addon.F.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Addon.F.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Addon.F.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Addon.F.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Addon.End.G" parent="_ImageStyle.Addon.End">
+        <item name="android:layout_height">@dimen/image.Addon.G.Height</item>
+        <item name="android:layout_width">@dimen/image.Addon.G.Width</item>
+        <item name="android:paddingTop">@dimen/image.Addon.G.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Addon.G.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Addon.G.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Addon.G.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Addon.End.H" parent="_ImageStyle.Addon.End">
+        <item name="android:layout_height">@dimen/image.Addon.H.Height</item>
+        <item name="android:layout_width">@dimen/image.Addon.H.Width</item>
+        <item name="android:paddingTop">@dimen/image.Addon.H.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Addon.H.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Addon.H.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Addon.H.PaddingHorizontal</item>
+    </style>
+
+    <style name="_ImageStyle.Menu" parent="_ImageStyle">
+        <item name="android:background">@drawable/image_menu_background</item>
+    </style>
+
+    <style name="ImageStyle.Menu.A" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.A.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.A.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.A.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.A.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.A.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.A.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Menu.B" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.B.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.B.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.B.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.B.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.B.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.B.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Menu.C" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.C.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.C.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.C.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.C.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.C.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.C.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Menu.D" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.D.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.D.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.D.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.D.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.D.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.D.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Menu.E" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.E.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.E.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.E.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.E.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.E.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.E.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Menu.F" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.F.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.F.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.F.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.F.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.F.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.F.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Menu.G" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.G.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.G.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.G.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.G.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.G.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.G.PaddingHorizontal</item>
+    </style>
+
+    <style name="ImageStyle.Menu.H" parent="_ImageStyle.Menu">
+        <item name="android:layout_height">@dimen/image.Menu.H.Height</item>
+        <item name="android:layout_width">@dimen/image.Menu.H.Width</item>
+        <item name="android:paddingTop">@dimen/image.Menu.H.PaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/image.Menu.H.PaddingVertical</item>
+        <item name="android:paddingLeft">@dimen/image.Menu.H.PaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/image.Menu.H.PaddingHorizontal</item>
+    </style>
+</resources>

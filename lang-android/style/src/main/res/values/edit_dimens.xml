@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit.F.Height">36dp</dimen>
+    <dimen name="edit.F.TextSize">18sp</dimen>
+    <dimen name="edit.F.paddingHorizontal">6.9dp</dimen>
+    <dimen name="edit.G.Height">32dp</dimen>
+    <dimen name="edit.G.TextSize">16sp</dimen>
+    <dimen name="edit.G.paddingHorizontal">6.8dp</dimen>
+    <dimen name="edit.H.Height">28dp</dimen>
+    <dimen name="edit.H.TextSize">14sp</dimen>
+    <dimen name="edit.H.paddingHorizontal">6.7dp</dimen>
+</resources>

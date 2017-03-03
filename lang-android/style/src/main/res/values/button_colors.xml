@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button.Default.TextColor.Normal">#ff333333</color>
+    <color name="button.Default.Background.Normal">#ffffffff</color><!--btn-default-->
+    <color name="button.Default.Border.Normal">#ffcccccc</color>
+    <color name="button.Default.TextColor.Disabled">#a6333333</color>
+    <color name="button.Default.Background.Disabled">#a6ffffff</color>
+    <color name="button.Default.Border.Disabled">#a6cccccc</color>
+    <color name="button.Default.Background.Selected">#ffe6e6e6</color>
+    <color name="button.Default.Border.Selected">#ffcccccc</color>
+    <color name="button.Default.Background.Focused">#ffe6e6e6</color><!--btn-default:focus-->
+    <color name="button.Default.Border.Focused">#ff8c8c8c</color>
+    <color name="button.Default.Background.Pressed">#ffe6e6e6</color><!--btn-default:active-->
+    <color name="button.Default.Border.Pressed">#ffadadad</color>
+
+    <color name="button.Primary.TextColor.Normal">#ffffffff</color>
+    <color name="button.Primary.Background.Normal">#ff337ab7</color><!--btn-primary-->
+    <color name="button.Primary.Border.Normal">#ff2e6da4</color>
+    <color name="button.Primary.TextColor.Disabled">#a6ffffff</color>
+    <color name="button.Primary.Background.Disabled">#a6337ab7</color>
+    <color name="button.Primary.Border.Disabled">#a62e6da4</color>
+    <color name="button.Primary.Background.Selected">#ff286090</color>
+    <color name="button.Primary.Border.Selected">#ff2e6da4</color>
+    <color name="button.Primary.Background.Focused">#ff286090</color><!--btn-primary:focus-->
+    <color name="button.Primary.Border.Focused">#ff122b40</color>
+    <color name="button.Primary.Background.Pressed">#ff286090</color><!--btn-primary:active-->
+    <color name="button.Primary.Border.Pressed">#ff204d74</color>
+
+    <color name="button.Success.TextColor.Normal">#ffffffff</color>
+    <color name="button.Success.Background.Normal">#ff5cb85c</color><!--btn-success-->
+    <color name="button.Success.Border.Normal">#ff4cae4c</color>
+    <color name="button.Success.TextColor.Disabled">#a6ffffff</color>
+    <color name="button.Success.Background.Disabled">#a65cb85c</color>
+    <color name="button.Success.Border.Disabled">#a64cae4c</color>
+    <color name="button.Success.Background.Selected">#ff449d44</color>
+    <color name="button.Success.Border.Selected">#ff4cae4c</color>
+    <color name="button.Success.Background.Focused">#ff449d44</color><!--btn-success:focus-->
+    <color name="button.Success.Border.Focused">#ff255625</color>
+    <color name="button.Success.Background.Pressed">#ff449d44</color><!--btn-success:active-->
+    <color name="button.Success.Border.Pressed">#ff398439</color>
+
+    <color name="button.Info.TextColor.Normal">#ffffffff</color>
+    <color name="button.Info.Background.Normal">#ff5bc0de</color><!--btn-info-->
+    <color name="button.Info.Border.Normal">#ff46b8da</color>
+    <color name="button.Info.TextColor.Disabled">#a6ffffff</color>
+    <color name="button.Info.Background.Disabled">#a65bc0de</color>
+    <color name="button.Info.Border.Disabled">#a646b8da</color>
+    <color name="button.Info.Background.Selected">#ff31b0d5</color>
+    <color name="button.Info.Border.Selected">#ff46b8da</color>
+    <color name="button.Info.Background.Focused">#ff31b0d5</color><!--btn-info:focus-->
+    <color name="button.Info.Border.Focused">#ff1b6d85</color>
+    <color name="button.Info.Background.Pressed">#ff31b0d5</color><!--btn-info:active-->
+    <color name="button.Info.Border.Pressed">#ff269abc</color>
+
+    <color name="button.Warning.TextColor.Normal">#ffffffff</color>
+    <color name="button.Warning.Background.Normal">#fff0ad4e</color><!--btn-warning-->
+    <color name="button.Warning.Border.Normal">#ffeea236</color>
+    <color name="button.Warning.TextColor.Disabled">#a6ffffff</color>
+    <color name="button.Warning.Background.Disabled">#a6f0ad4e</color>
+    <color name="button.Warning.Border.Disabled">#a6eea236</color>
+    <color name="button.Warning.Background.Selected">#ffec971f</color>
+    <color name="button.Warning.Border.Selected">#ffeea236</color>
+    <color name="button.Warning.Background.Focused">#ffec971f</color><!--btn-warning:focus-->
+    <color name="button.Warning.Border.Focused">#ff985f0d</color>
+    <color name="button.Warning.Background.Pressed">#ffec971f</color><!--btn-warning:active-->
+    <color name="button.Warning.Border.Pressed">#ffd58512</color>
+
+    <color name="button.Danger.TextColor.Normal">#ffffffff</color>
+    <color name="button.Danger.Background.Normal">#ffd9534f</color><!--btn-danger-->
+    <color name="button.Danger.Border.Normal">#ffd43f3a</color>
+    <color name="button.Danger.TextColor.Disabled">#a6ffffff</color>
+    <color name="button.Danger.Background.Disabled">#a6d9534f</color>
+    <color name="button.Danger.Border.Disabled">#a6d43f3a</color>
+    <color name="button.Danger.Background.Selected">#ffc9302c</color>
+    <color name="button.Danger.Border.Selected">#ffd43f3a</color>
+    <color name="button.Danger.Background.Focused">#ffc9302c</color><!--btn-danger:focus-->
+    <color name="button.Danger.Border.Focused">#ff761c19</color>
+    <color name="button.Danger.Background.Pressed">#ffc9302c</color><!--btn-danger:active-->
+    <color name="button.Danger.Border.Pressed">#ffac2925</color>
+</resources>

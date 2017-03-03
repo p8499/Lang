@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.p8499.lang.Signup1Activity">
+
+    <fragment
+        android:id="@+id/title"
+        android:name="com.p8499.lang.TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:layout="@layout/fragment_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ic_phone"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_phone_android_addon_48dp"/>
+
+            <EditText
+                android:id="@+id/phone"
+                style="@style/EditStyle.End.F"
+                android:layout_width="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ic_phone"
+                android:gravity="left|start|center_vertical"
+                android:hint="@string/activity_signup1_hintphone"
+                android:inputType="phone"/>
+
+            <Button
+                android:id="@+id/initialize"
+                style="@style/ButtonStyle.Primary.H"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:text="@string/activity_signup1_verify"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ct_pv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ic_pv"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:src="@drawable/ic_picture_addon_48dp"/>
+
+            <EditText
+                android:id="@+id/pv"
+                style="@style/EditStyle.End.F"
+                android:layout_width="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ic_pv"
+                android:gravity="left|start|center_vertical"
+                android:hint="@string/activity_signup1_hintpv"
+                android:inputType="number"
+                android:maxLength="6"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ct_mv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ic_mv"
+                style="@style/ImageStyle.Addon.Start.F"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_sms_addon_48dp"/>
+
+            <EditText
+                android:id="@+id/mv"
+                style="@style/EditStyle.End.F"
+                android:layout_width="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/ic_mv"
+                android:gravity="left|start|center_vertical"
+                android:hint="@string/activity_signup1_hintmv"
+                android:inputType="number"
+                android:maxLength="6"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/verify"
+            style="@style/ButtonStyle.Primary.F"
+            android:layout_width="match_parent"
+            android:layout_marginTop="32dp"
+            android:enabled="false"
+            android:text="@string/activity_signup1_next"/>
+    </LinearLayout>
+</LinearLayout>
