@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+    <context:property-placeholder location="WEB-INF/*.properties"/>
+    <bean id="validatorFactory" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
+    </bean>
+    <bean id="jackson" class="com.fasterxml.jackson.databind.ObjectMapper"/>
+
+    <bean id="local" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${local.driverClassName}"/>
+        <property name="url" value="${local.url}"/>
+        <property name="username" value="${local.username}"/>
+        <property name="password" value="${local.password}"/>
+    </bean>
+    <bean id="local_factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="local"/>
+        <property name="configLocation" value="WEB-INF/mybatis-config.xml"/>
+    </bean>
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.p8499.lang.server.mapper.local"/>
+        <property name="sqlSessionFactoryBeanName" value="local_factory"/>
+    </bean>
+    <context:component-scan base-package="com.p8499.lang.server">
+        <context:exclude-filter type="regex" expression="com.p8499.lang.server.mapper.*"/>
+    </context:component-scan>
+    <mvc:annotation-driven enable-matrix-variables="true"/>
+    <task:executor id="executor" pool-size="3"/>
+    <task:scheduler id="scheduler" pool-size="3"/>
+    <task:annotation-driven scheduler="scheduler" executor="executor"/>
+</beans>

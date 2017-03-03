@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+    <bean id="foregroundColor" class="java.awt.Color">
+        <constructor-arg index="0" type="int" value="0xff"/>
+        <constructor-arg index="1" type="int" value="0xff"/>
+        <constructor-arg index="2" type="int" value="0xff"/>
+    </bean>
+    <bean id="backgroundColor" class="java.awt.Color">
+        <constructor-arg index="0" type="int" value="0x00"/>
+        <constructor-arg index="1" type="int" value="0x00"/>
+        <constructor-arg index="2" type="int" value="0x00"/>
+        <constructor-arg index="3" type="int" value="0x00"/>
+    </bean>
+    <bean id="foregroundFactory" class="org.patchca.color.SingleColorFactory">
+        <property name="color" ref="foregroundColor"/>
+    </bean>
+    <bean id="backgroundFactory" class="org.patchca.color.SingleColorFactory">
+        <property name="color" ref="backgroundColor"/>
+    </bean>
+    <bean id="curvesRippleFilterFactory" class="org.patchca.filter.predefined.CurvesRippleFilterFactory">
+        <property name="colorFactory" ref="foregroundFactory"/>
+    </bean>
+    <bean id="singleColorBackgroundFactory" class="org.patchca.background.SingleColorBackgroundFactory">
+        <property name="colorFactory" ref="backgroundFactory"/>
+    </bean>
+    <bean id="wordFactory" class="org.patchca.word.AdaptiveRandomWordFactory">
+        <property name="characters" value="0123456789"/>
+    </bean>
+    <bean id="configurableCaptchaService" class="org.patchca.service.ConfigurableCaptchaService">
+        <property name="backgroundFactory" ref="singleColorBackgroundFactory"/>
+        <property name="colorFactory" ref="foregroundFactory"/>
+        <property name="filterFactory" ref="curvesRippleFilterFactory"/>
+        <property name="wordFactory" ref="wordFactory"/>
+    </bean>
+</beans>
